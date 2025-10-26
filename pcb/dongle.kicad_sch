@@ -2028,6 +2028,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "dongle:Crystal_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal_Small"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "dongle:LED"
 			(pin_numbers
 				(hide yes)
@@ -3037,7 +3186,13 @@
 		(uuid "7d5c1d5d-423f-4a7e-925e-e28418acacea")
 	)
 	(junction
-		(at 247.65 33.02)
+		(at 267.97 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88967f8d-85a4-4dba-ba70-1fdb2d4c0574")
+	)
+	(junction
+		(at 245.11 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8947062a-83b3-4cee-bd1a-32379e845560")
@@ -3049,13 +3204,19 @@
 		(uuid "9abaedb1-9a0e-4f15-9b57-bb992e9342da")
 	)
 	(junction
+		(at 267.97 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e6fc32-ca89-4d1e-a970-529aac85a69f")
+	)
+	(junction
 		(at 201.93 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c06d6743-36cb-423b-9509-fc55ecc8d829")
 	)
 	(junction
-		(at 260.35 36.83)
+		(at 257.81 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0a4559f-f399-4825-98ab-442f2f8a610e")
@@ -3067,13 +3228,19 @@
 		(uuid "c99b7363-b59a-494d-8935-9c52dcda9355")
 	)
 	(junction
+		(at 255.27 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce73aaaa-654b-43ff-bd0f-3fda2e04524a")
+	)
+	(junction
 		(at 114.3 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da532f6e-ef49-4276-9394-e363eaddc649")
 	)
 	(junction
-		(at 260.35 29.21)
+		(at 257.81 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3930a92-3b36-4d72-8fc5-b963317b6a78")
@@ -3170,6 +3337,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 41.91) (xy 255.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f66ae19-4f0a-49f1-bfcb-f0ac93a98642")
+	)
+	(wire
+		(pts
 			(xy 215.9 31.75) (xy 212.09 31.75)
 		)
 		(stroke
@@ -3210,13 +3387,23 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 36.83) (xy 260.35 36.83)
+			(xy 262.89 29.21) (xy 257.81 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1a0b997d-7615-4823-ad33-8946974b7407")
+	)
+	(wire
+		(pts
+			(xy 270.51 44.45) (xy 267.97 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d06860b-bb69-4792-be99-732d5ad3cb73")
 	)
 	(wire
 		(pts
@@ -3237,6 +3424,16 @@
 			(type default)
 		)
 		(uuid "1da71568-de8e-4e08-8d81-860c169b627b")
+	)
+	(wire
+		(pts
+			(xy 255.27 39.37) (xy 257.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f09c933-b1ac-4f97-80a2-0eb9d478aed9")
 	)
 	(wire
 		(pts
@@ -3280,7 +3477,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 33.02) (xy 255.27 33.02)
+			(xy 245.11 25.4) (xy 252.73 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3307,6 +3504,16 @@
 			(type default)
 		)
 		(uuid "3cab2a50-04b2-414e-8c53-fde7fdf19a13")
+	)
+	(wire
+		(pts
+			(xy 255.27 44.45) (xy 257.81 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477f4700-24ed-495d-9bd5-6b026726d435")
 	)
 	(wire
 		(pts
@@ -3360,7 +3567,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 33.02) (xy 265.43 33.02)
+			(xy 273.05 25.4) (xy 262.89 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3380,7 +3587,17 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 29.21) (xy 260.35 29.21)
+			(xy 267.97 39.37) (xy 265.43 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6b07e5-6086-4002-9978-5b230545c6cc")
+	)
+	(wire
+		(pts
+			(xy 262.89 21.59) (xy 257.81 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3460,6 +3677,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 41.91) (xy 255.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b150fd-26cb-4a64-886c-1940ca8f8201")
+	)
+	(wire
+		(pts
 			(xy 64.77 27.94) (xy 64.77 35.56)
 		)
 		(stroke
@@ -3500,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 33.02) (xy 247.65 36.83)
+			(xy 245.11 25.4) (xy 245.11 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3550,7 +3777,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 36.83) (xy 260.35 36.83)
+			(xy 252.73 29.21) (xy 257.81 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3787,17 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 33.02) (xy 247.65 33.02)
+			(xy 270.51 39.37) (xy 267.97 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b4d823-0a68-4448-98df-f374b5769640")
+	)
+	(wire
+		(pts
+			(xy 241.3 25.4) (xy 245.11 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3610,7 +3847,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 29.21) (xy 260.35 29.21)
+			(xy 252.73 21.59) (xy 257.81 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3630,7 +3867,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 29.21) (xy 247.65 33.02)
+			(xy 245.11 21.59) (xy 245.11 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3647,6 +3884,26 @@
 			(type default)
 		)
 		(uuid "e35ab35c-63d6-4e47-99b7-ea062cee355f")
+	)
+	(wire
+		(pts
+			(xy 267.97 44.45) (xy 265.43 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7447b4f-b3b8-468f-bcb2-fd21b8799fb6")
+	)
+	(wire
+		(pts
+			(xy 255.27 39.37) (xy 255.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f744f647-44d5-493f-bda1-9e7eb22cf43d")
 	)
 	(global_label "D+"
 		(shape input)
@@ -3727,6 +3984,28 @@
 		(uuid "23a45bac-3682-4ffd-a710-7f1e48de5a11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.0819 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XL1"
+		(shape input)
+		(at 270.51 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2657b99f-c1f3-4875-af93-f028feff0aee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9423 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,6 +4235,28 @@
 			)
 		)
 	)
+	(global_label "XL2"
+		(shape input)
+		(at 270.51 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bab70b8-3b68-4eaa-a575-c68d6a2f8354")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9423 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 130.81 34.29 0)
@@ -4002,7 +4303,7 @@
 	)
 	(global_label "XC1"
 		(shape input)
-		(at 265.43 36.83 0)
+		(at 262.89 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4012,7 +4313,7 @@
 		)
 		(uuid "509dd2ec-6e9f-48f0-bb2d-ef630cd1be83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.1042 36.83 0)
+			(at 269.5642 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4413,7 @@
 	)
 	(global_label "XC2"
 		(shape input)
-		(at 265.43 29.21 0)
+		(at 262.89 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4122,7 +4423,7 @@
 		)
 		(uuid "65e38b5a-f68d-4266-ab2e-5a23acf39fc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.1042 29.21 0)
+			(at 269.5642 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5520,7 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO_lowair:C")
-		(at 251.46 29.21 90)
+		(at 248.92 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5227,7 +5528,7 @@
 		(dnp no)
 		(uuid "324855a9-9142-4e82-9f4f-552f2fa6d137")
 		(property "Reference" "C2"
-			(at 251.206 22.86 90)
+			(at 248.666 15.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5536,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 251.206 25.4 90)
+			(at 248.666 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5544,7 @@
 			)
 		)
 		(property "Footprint" "dongle:C_0201_0603Metric"
-			(at 255.27 28.2448 0)
+			(at 252.73 20.6248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5553,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 29.21 0)
+			(at 248.92 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +5562,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 251.46 29.21 0)
+			(at 248.92 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5718,7 @@
 	)
 	(symbol
 		(lib_id "dongle:Crystal_GND24")
-		(at 260.35 33.02 90)
+		(at 257.81 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5425,7 +5726,7 @@
 		(dnp no)
 		(uuid "4097c7af-8b39-47ad-acce-c356c53e3721")
 		(property "Reference" "Y1"
-			(at 260.35 33.02 90)
+			(at 257.81 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5734,7 @@
 			)
 		)
 		(property "Value" "Crystal_GND24"
-			(at 259.842 41.148 90)
+			(at 257.302 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,8 +5742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "dongle:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 260.35 33.02 0)
+		(property "Footprint" "dongle:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+			(at 257.81 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 33.02 0)
+			(at 257.81 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5761,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 260.35 33.02 0)
+			(at 257.81 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,6 +5851,71 @@
 			(project "dongle"
 				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PNCATEHO_lowair:GND")
+		(at 251.46 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a66331-d468-4f05-af9b-7e2843909847")
+		(property "Reference" "#PWR012"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a9230c7-96e4-4427-bc7f-041997becab8")
+		)
+		(instances
+			(project "dongle"
+				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5844,7 +6210,7 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO_lowair:C")
-		(at 251.46 36.83 90)
+		(at 248.92 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5852,7 +6218,7 @@
 		(dnp no)
 		(uuid "6f4cdad3-7b7b-48f0-b3c7-c0d4069a4697")
 		(property "Reference" "C1"
-			(at 251.46 43.18 90)
+			(at 248.92 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +6226,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 251.46 40.64 90)
+			(at 248.92 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +6234,7 @@
 			)
 		)
 		(property "Footprint" "dongle:C_0201_0603Metric"
-			(at 255.27 35.8648 0)
+			(at 252.73 28.2448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +6243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 36.83 0)
+			(at 248.92 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,7 +6252,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 251.46 36.83 0)
+			(at 248.92 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,6 +7024,74 @@
 		)
 	)
 	(symbol
+		(lib_id "dongle:Crystal_Small")
+		(at 267.97 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96517f8f-60a5-4439-9b8b-3568080ac1f7")
+		(property "Reference" "Y2"
+			(at 267.97 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_Small"
+			(at 271.78 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "dongle:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal, small symbol"
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94b71814-7382-4218-80cc-a5bc1a344ee9")
+		)
+		(pin "1"
+			(uuid "5737603e-484f-4b5d-8b14-8ddf40649d24")
+		)
+		(instances
+			(project ""
+				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PNCATEHO_lowair:C")
 		(at 201.93 35.56 0)
 		(mirror y)
@@ -6937,7 +7371,7 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO_lowair:GND")
-		(at 243.84 33.02 0)
+		(at 241.3 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6945,7 +7379,7 @@
 		(dnp no)
 		(uuid "aa7e8ff6-bf34-4de3-b4f5-e49e36740309")
 		(property "Reference" "#PWR025"
-			(at 243.84 39.37 0)
+			(at 241.3 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +7388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 37.084 0)
+			(at 241.3 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,7 +7396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 33.02 0)
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,7 +7405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 33.02 0)
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +7414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 33.02 0)
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +7572,7 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO_lowair:GND")
-		(at 275.59 33.02 0)
+		(at 273.05 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7146,7 +7580,7 @@
 		(dnp no)
 		(uuid "b6fe6cbc-f53d-448b-8601-e374f9ddc70b")
 		(property "Reference" "#PWR06"
-			(at 275.59 39.37 0)
+			(at 273.05 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7155,7 +7589,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.59 36.83 0)
+			(at 273.05 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +7597,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 33.02 0)
+			(at 273.05 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 33.02 0)
+			(at 273.05 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7615,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 33.02 0)
+			(at 273.05 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,31 +7705,31 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO_lowair:C")
-		(at 171.45 100.33 180)
+		(at 261.62 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "b8ce3874-fbd7-4806-a20f-f8d525f31dda")
 		(property "Reference" "C15"
-			(at 165.862 99.06 0)
+			(at 261.62 35.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "12pF"
-			(at 165.862 101.6 0)
+		(property "Value" "7pF"
+			(at 261.62 33.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 170.4848 96.52 0)
+		(property "Footprint" "dongle:C_0201_0603Metric"
+			(at 257.81 40.3352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 100.33 0)
+			(at 261.62 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,7 +7747,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 100.33 0)
+			(at 261.62 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,31 +7772,31 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO_lowair:C")
-		(at 179.07 100.33 0)
+		(at 261.62 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "c23b7f03-b301-4282-b7b8-355540e2c84c")
 		(property "Reference" "C16"
-			(at 184.658 99.06 0)
+			(at 261.62 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "12pF"
-			(at 184.658 101.6 0)
+		(property "Value" "7pF"
+			(at 261.62 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 180.0352 104.14 0)
+		(property "Footprint" "dongle:C_0201_0603Metric"
+			(at 265.43 43.4848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 100.33 0)
+			(at 261.62 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7814,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 100.33 0)
+			(at 261.62 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +8184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:ANTC5020X110N"
+		(property "Footprint" "dongle:AN9520-245"
 			(at 185.42 24.13 0)
 			(effects
 				(font

@@ -1,0 +1,118 @@
+(footprint "AN9520-245"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD antenna")
+	(tags "antenna")
+	(property "Reference" "REF**"
+		(at 0 -2.05 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "de83dd55-9ff6-4c6e-a907-8c3562068cb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AN9520-245"
+		(at 0 2.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f96f606-81ee-4395-af0f-813b7580b5f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2662ec2b-a313-420a-8d3e-d5fe97b90532")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04b4f70c-743c-4e32-9248-396ae995890a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.325 0.025)
+		(end -1.026184 -0.273816)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b65c9443-e802-47b4-94d8-a14cc3aa7199")
+	)
+	(fp_rect
+		(start -3.7 -1.35)
+		(end 7.525 1.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "667c349e-8977-4e63-9566-d9b10c700756")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.9125 0 0)
+		(layer "F.Fab")
+		(uuid "7353c1dc-7676-4a00-8aa5-2bd7b6209025")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.85 0)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "70c7c05b-ad77-413b-8061-b396b8219c14")
+	)
+	(pad "2" smd roundrect
+		(at 6.65 0)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "7ffbd15e-d0c6-4477-9734-bd964d567903")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Antenna.3dshapes/Johanson_2450AT43F0100.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
