@@ -2841,6 +2841,12 @@
 		(uuid "1494bba3-9646-4c0a-b165-54d72f7a8abd")
 	)
 	(junction
+		(at 170.18 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f79288c-bfd7-4366-8ce5-5e378da7391a")
+	)
+	(junction
 		(at 201.93 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2893,12 +2899,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c99b7363-b59a-494d-8935-9c52dcda9355")
-	)
-	(junction
-		(at 170.18 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1db0940-d768-43a5-985f-7449fa15a913")
 	)
 	(junction
 		(at 114.3 92.71)
@@ -3054,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 72.39) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2b3384-4ca8-47fe-9e16-4aa8108b1e1e")
+	)
+	(wire
+		(pts
 			(xy 220.98 60.96) (xy 187.96 60.96)
 		)
 		(stroke
@@ -3131,6 +3141,16 @@
 			(type default)
 		)
 		(uuid "3cab2a50-04b2-414e-8c53-fde7fdf19a13")
+	)
+	(wire
+		(pts
+			(xy 170.18 71.12) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48fb0bf8-a9ce-4a7e-96eb-90d549647f53")
 	)
 	(wire
 		(pts
@@ -3284,6 +3304,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 72.39) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9086ce19-60bd-48c8-98ff-e507e258a224")
+	)
+	(wire
+		(pts
 			(xy 251.46 63.5) (xy 247.65 63.5)
 		)
 		(stroke
@@ -3414,6 +3444,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 177.8) (xy 62.23 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a6f902-fecc-459e-8e71-6f0b4908f132")
+	)
+	(wire
+		(pts
 			(xy 273.05 63.5) (xy 269.24 63.5)
 		)
 		(stroke
@@ -3431,38 +3471,6 @@
 			(type default)
 		)
 		(uuid "f5e444b0-7ba7-463b-8c80-e5bd31c67468")
-	)
-	(wire
-		(pts
-			(xy 176.53 71.12) (xy 170.18 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5256fd-184f-4d6a-a3f6-c68e30a4a5d4")
-	)
-	(global_label "VSS"
-		(shape input)
-		(at 176.53 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "068991f6-689a-472f-8b43-4b8d258cd745")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.0228 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "D+"
 		(shape input)
@@ -3565,6 +3573,28 @@
 		(uuid "2d8c032d-259e-49ff-8d10-7b469196d458")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.69 28.9462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSS"
+		(shape input)
+		(at 176.53 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3039f2ce-9cb5-4b37-b55d-ba2beb1506ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.0228 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,28 +3868,6 @@
 			)
 		)
 	)
-	(global_label "VSS"
-		(shape input)
-		(at 59.69 177.8 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "59adf3b2-c174-414a-a2ee-b6c264ae8479")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 184.2928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DEC1"
 		(shape input)
 		(at 114.3 60.96 0)
@@ -4027,6 +4035,28 @@
 		(uuid "79ea3763-b71f-44ba-b507-adbaaed186ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.7297 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSS"
+		(shape input)
+		(at 60.96 177.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ab70256-1470-4b76-9f16-c99a3cdae742")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 184.2928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,28 +4260,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSS_PA"
-		(shape input)
-		(at 62.23 177.8 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad707237-1fc0-4569-b552-775fea634adc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 187.619 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4767,7 +4775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "dongle:TS342A2P"
 			(at 259.08 86.36 0)
 			(effects
 				(font
@@ -5766,7 +5774,7 @@
 	)
 	(symbol
 		(lib_id "Library:GND")
-		(at 170.18 71.12 0)
+		(at 170.18 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5775,7 +5783,7 @@
 		(fields_autoplaced yes)
 		(uuid "7424a24a-0652-4f08-8432-ed3aeed7a304")
 		(property "Reference" "#PWR07"
-			(at 170.18 77.47 0)
+			(at 170.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5792,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 76.2 0)
+			(at 170.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +5800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 71.12 0)
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +5809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 71.12 0)
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +5818,7 @@
 			)
 		)
 		(property "Description" "Global ground symbol"
-			(at 170.18 80.518 0)
+			(at 170.18 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "dongle:Texas_SWRA117D_2.4GHz_Left"
 			(at 187.96 26.67 0)
 			(effects
 				(font
@@ -7604,7 +7612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "dongle:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 265.43 65.278 90)
 			(effects
 				(font
@@ -7671,7 +7679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "dongle:LED_0603_1608Metric"
 			(at 255.27 63.5 0)
 			(effects
 				(font

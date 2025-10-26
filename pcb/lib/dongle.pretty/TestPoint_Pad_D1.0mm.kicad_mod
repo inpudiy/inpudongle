@@ -64,18 +64,18 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "232e49b3-175c-43f1-906b-a67d81adeac2")
 	)
 	(fp_circle
 		(center 0 0)
-		(end 1 0)
+		(end -1 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
-		(layer "F.CrtYd")
+		(layer "B.CrtYd")
 		(uuid "f02f025d-d308-4e0d-bc6c-e230724bf915")
 	)
 	(fp_text user "${REFERENCE}"
@@ -92,7 +92,7 @@
 	(pad "1" smd circle
 		(at 0 0)
 		(size 1 1)
-		(layers "F.Cu" "F.Mask")
+		(layers "B.Cu" "B.Mask")
 		(uuid "bab732e9-e79a-410d-8a2b-e7d9e8d299bb")
 	)
 	(embedded_fonts no)

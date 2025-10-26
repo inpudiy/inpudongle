@@ -53,18 +53,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -10.55 -4.50153) (xy -10.89 -4.97153) (xy -10.21 -4.97153)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "3e4d90bb-04e3-422b-bd44-8a3cc3786478")
-	)
 	(fp_line
 		(start -5.3 6)
 		(end -5.3 -6)
@@ -307,15 +295,15 @@
 		(uuid "6cec3bbc-9d09-4a82-862b-d2316babbd9f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Connfly_DS1098_Horizontal.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_CNCTech_1001-011-01101_Horizontal.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -1 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
