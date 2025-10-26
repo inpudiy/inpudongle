@@ -1,0 +1,225 @@
+(footprint "ANTC5020X110N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Ceramic_chip_ANT")
+	(tags "Antenna")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1214d355-3246-440d-b4aa-8fd7264670fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Antenna_Chip"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1c8a687d-25d7-4365-b6a4-2541cc374e28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80e9a3d4-96ee-432b-929f-e137447c8ce2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ceramic chip antenna with pin for PCB trace"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea62e6f7-83db-40df-9813-6ab32a4e31f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2917719"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15c29beb-37fa-4d0f-9984-a3017f9504e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -1.45)
+		(end -3.3 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65a9d80b-66b8-453a-bfbb-80c64671eeac")
+	)
+	(fp_line
+		(start -3.3 1.45)
+		(end 2.35 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3eb937f2-1bce-418b-b8a1-b7f065e04595")
+	)
+	(fp_line
+		(start 2.35 -1.45)
+		(end -3.3 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "368b4101-4948-43df-8f78-241d2105baf8")
+	)
+	(fp_line
+		(start -3.4 -1.55)
+		(end 3.4 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2134cdc-32d3-4bf0-9573-cc5fe2d4a5da")
+	)
+	(fp_line
+		(start -3.4 1.55)
+		(end -3.4 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a24ac2d7-8f53-44a3-bcd6-517e5bd992b9")
+	)
+	(fp_line
+		(start 3.4 -1.55)
+		(end 3.4 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c92d0cc2-e4f5-44d3-8cfe-430ebfd91acb")
+	)
+	(fp_line
+		(start 3.4 1.55)
+		(end -3.4 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50a2e3be-0766-4260-82db-619cc2e75f7f")
+	)
+	(fp_line
+		(start -2.5 -1)
+		(end 2.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "711213fc-4eb9-41fb-83b1-b80d8daee861")
+	)
+	(fp_line
+		(start -2.5 -0.4)
+		(end -1.9 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5c384ba-1685-4b3f-a9f3-ca71b111eea5")
+	)
+	(fp_line
+		(start -2.5 1)
+		(end -2.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56f7bd6f-f9be-49a1-9baf-30af98659374")
+	)
+	(fp_line
+		(start 2.5 -1)
+		(end 2.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df474bf0-e87d-433d-b80c-514e83fca4e6")
+	)
+	(fp_line
+		(start 2.5 1)
+		(end -2.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "328aab09-92af-4079-ae86-2b33561c9873")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "12c542bb-7452-4ab5-a1bd-e4da1a63fdff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.35 0 180)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1ea8a226-fea1-4478-b5bb-1043d4292e67")
+	)
+	(pad "2" smd rect
+		(at 2.35 0 180)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eff6590e-f951-4b48-ba29-401a9b68dccf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/external/2450AT42A100E/3D/2450AT42A100E.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

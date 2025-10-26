@@ -236,179 +236,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PNCATEHO_lowair:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PNCATEHO_lowair:GND"
 			(power)
 			(pin_numbers
@@ -1621,7 +1448,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dongle:Antenna"
+		(symbol "dongle:Antenna_Shield"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1633,7 +1460,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "AE"
-				(at -1.905 1.905 0)
+				(at -1.905 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1641,8 +1468,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
+			(property "Value" "Antenna_Shield"
+				(at -1.905 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1651,7 +1478,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1660,7 +1487,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1668,7 +1495,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Antenna"
+			(property "Description" "Antenna with extra pin for shielding"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1686,10 +1513,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Antenna_0_1"
+			(symbol "Antenna_Shield_0_1"
+				(arc
+					(start 0 -2.667)
+					(mid -0.8485 -2.1032)
+					(end -0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -3.81)
+						(xy 0 5.08) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -1701,10 +1540,69 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -1.143)
+					(mid 0.8046 -2.0885)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1712,7 +1610,7 @@
 					)
 				)
 			)
-			(symbol "Antenna_1_1"
+			(symbol "Antenna_Shield_1_1"
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -1724,6 +1622,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1846,6 +1762,262 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dongle:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2859,16 +3031,16 @@
 		(uuid "4a30befc-a3b0-490f-ab7f-3fef0ebb5f54")
 	)
 	(junction
-		(at 260.35 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c99576b-7ae2-42be-a984-472dfeba9a1d")
-	)
-	(junction
 		(at 123.19 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d5c1d5d-423f-4a7e-925e-e28418acacea")
+	)
+	(junction
+		(at 247.65 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8947062a-83b3-4cee-bd1a-32379e845560")
 	)
 	(junction
 		(at 143.51 63.5)
@@ -2877,22 +3049,16 @@
 		(uuid "9abaedb1-9a0e-4f15-9b57-bb992e9342da")
 	)
 	(junction
-		(at 260.35 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a14efccd-2235-4b4b-ab28-08dc1c7f18f1")
-	)
-	(junction
 		(at 201.93 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c06d6743-36cb-423b-9509-fc55ecc8d829")
 	)
 	(junction
-		(at 252.73 30.48)
+		(at 260.35 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2a71e63-cc02-4c66-bc2f-ac97360a0c09")
+		(uuid "c0a4559f-f399-4825-98ab-442f2f8a610e")
 	)
 	(junction
 		(at 143.51 71.12)
@@ -2905,6 +3071,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da532f6e-ef49-4276-9394-e363eaddc649")
+	)
+	(junction
+		(at 260.35 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3930a92-3b36-4d72-8fc5-b963317b6a78")
 	)
 	(junction
 		(at 215.9 39.37)
@@ -2943,6 +3115,10 @@
 	(no_connect
 		(at 92.71 71.12)
 		(uuid "8159f134-b12a-475f-be13-51dcdd47afdb")
+	)
+	(no_connect
+		(at 185.42 31.75)
+		(uuid "85385683-3a35-45b4-b8c1-40e27b028a00")
 	)
 	(no_connect
 		(at 92.71 81.28)
@@ -2994,16 +3170,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 40.64) (xy 252.73 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1926b3-e790-4663-8072-0628887b1cad")
-	)
-	(wire
-		(pts
 			(xy 215.9 31.75) (xy 212.09 31.75)
 		)
 		(stroke
@@ -3044,13 +3210,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 33.02) (xy 260.35 30.48)
+			(xy 265.43 36.83) (xy 260.35 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1488b704-c596-413f-8c8a-5fad5bedbf56")
+		(uuid "1a0b997d-7615-4823-ad33-8946974b7407")
 	)
 	(wire
 		(pts
@@ -3104,16 +3270,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 43.18) (xy 260.35 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31667245-977d-4f9f-8ceb-70c4cf3c377f")
-	)
-	(wire
-		(pts
 			(xy 220.98 66.04) (xy 201.93 66.04)
 		)
 		(stroke
@@ -3121,6 +3277,16 @@
 			(type default)
 		)
 		(uuid "331aa2a7-943e-4401-9139-a51435cc8bf7")
+	)
+	(wire
+		(pts
+			(xy 247.65 33.02) (xy 255.27 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359be4da-ea3e-431c-a08b-166e10fb53f9")
 	)
 	(wire
 		(pts
@@ -3174,16 +3340,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 33.02) (xy 252.73 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55720d18-a9d9-4800-91bf-f1c0aa84d6a2")
-	)
-	(wire
-		(pts
 			(xy 261.62 63.5) (xy 259.08 63.5)
 		)
 		(stroke
@@ -3204,6 +3360,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 33.02) (xy 265.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57acc502-5d26-4464-b721-962ccb79e58a")
+	)
+	(wire
+		(pts
 			(xy 220.98 69.85) (xy 213.36 69.85)
 		)
 		(stroke
@@ -3211,6 +3377,16 @@
 			(type default)
 		)
 		(uuid "5ca9e09f-f6fb-4cf0-a653-7bc0402fdf93")
+	)
+	(wire
+		(pts
+			(xy 265.43 29.21) (xy 260.35 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650381eb-3601-40d8-82f1-46d6409f1839")
 	)
 	(wire
 		(pts
@@ -3324,13 +3500,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 21.59) (xy 252.73 21.59)
+			(xy 247.65 33.02) (xy 247.65 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abc06a81-098d-4f1b-b2f8-b6fb96f020c2")
+		(uuid "a011abf0-9314-4072-ab25-c5668025ef68")
 	)
 	(wire
 		(pts
@@ -3374,13 +3550,23 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 43.18) (xy 260.35 40.64)
+			(xy 255.27 36.83) (xy 260.35 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c606f9e6-3641-4faa-8f5b-4702e3813546")
+		(uuid "c21ac660-a5a3-47f1-b6d7-bc4faac594a3")
+	)
+	(wire
+		(pts
+			(xy 243.84 33.02) (xy 247.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd484f40-c8c4-49ab-93c5-5a3a8b306b2d")
 	)
 	(wire
 		(pts
@@ -3424,13 +3610,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 30.48) (xy 260.35 30.48)
+			(xy 255.27 29.21) (xy 260.35 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8a6165d-22fb-4ed9-801c-ac38382b12e4")
+		(uuid "d8c2eeff-7f8a-4faf-9f4d-cbd15eba4274")
 	)
 	(wire
 		(pts
@@ -3444,13 +3630,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 177.8) (xy 62.23 177.8)
+			(xy 247.65 29.21) (xy 247.65 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2a6f902-fecc-459e-8e71-6f0b4908f132")
+		(uuid "e31e582e-4b9f-481d-82b3-156f6cd76bbf")
 	)
 	(wire
 		(pts
@@ -3461,16 +3647,6 @@
 			(type default)
 		)
 		(uuid "e35ab35c-63d6-4e47-99b7-ea062cee355f")
-	)
-	(wire
-		(pts
-			(xy 252.73 21.59) (xy 252.73 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5e444b0-7ba7-463b-8c80-e5bd31c67468")
 	)
 	(global_label "D+"
 		(shape input)
@@ -3578,6 +3754,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VSS_PA"
+		(shape input)
+		(at 62.23 177.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e14188b-a3de-417d-ba5f-4834f5baf224")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 187.619 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3804,7 +4002,7 @@
 	)
 	(global_label "XC1"
 		(shape input)
-		(at 261.62 21.59 0)
+		(at 265.43 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3814,7 +4012,7 @@
 		)
 		(uuid "509dd2ec-6e9f-48f0-bb2d-ef630cd1be83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.2942 21.59 0)
+			(at 272.1042 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +4112,7 @@
 	)
 	(global_label "XC2"
 		(shape input)
-		(at 261.62 30.48 0)
+		(at 265.43 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3924,7 +4122,7 @@
 		)
 		(uuid "65e38b5a-f68d-4266-ab2e-5a23acf39fc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.2942 30.48 0)
+			(at 272.1042 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,28 +4233,6 @@
 		(uuid "79ea3763-b71f-44ba-b507-adbaaed186ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.7297 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSS"
-		(shape input)
-		(at 60.96 177.8 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ab70256-1470-4b76-9f16-c99a3cdae742")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 184.2928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,6 +4528,28 @@
 			)
 		)
 	)
+	(global_label "VSS"
+		(shape input)
+		(at 59.69 177.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c60f72ff-6bbb-4a93-b42d-6743b8dae00b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 184.2928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DEC4"
 		(shape input)
 		(at 220.98 69.85 0)
@@ -4444,7 +4642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "dongle:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "dongle:TestPoint_Pad_1.0x1.0mm"
 			(at 158.75 35.56 0)
 			(effects
 				(font
@@ -4576,7 +4774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dongle:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "dongle:L_0201_0603Metric"
 			(at 196.85 31.75 0)
 			(effects
 				(font
@@ -4644,7 +4842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "dongle:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "dongle:TestPoint_Pad_D1.0mm"
 			(at 158.75 33.02 0)
 			(effects
 				(font
@@ -4845,7 +5043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "dongle:C_0402_1005Metric"
 			(at 171.1452 63.5 0)
 			(effects
 				(font
@@ -5021,7 +5219,7 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO_lowair:C")
-		(at 252.73 36.83 180)
+		(at 251.46 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5029,7 +5227,7 @@
 		(dnp no)
 		(uuid "324855a9-9142-4e82-9f4f-552f2fa6d137")
 		(property "Reference" "C2"
-			(at 247.142 35.56 0)
+			(at 251.206 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,15 +5235,15 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 247.142 38.1 0)
+			(at 251.206 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 251.7648 33.02 0)
+		(property "Footprint" "dongle:C_0201_0603Metric"
+			(at 255.27 28.2448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 36.83 0)
+			(at 251.46 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5261,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 36.83 0)
+			(at 251.46 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "dongle:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "dongle:TestPoint_Pad_D1.0mm"
 			(at 158.75 30.48 0)
 			(effects
 				(font
@@ -5218,6 +5416,80 @@
 		)
 	)
 	(symbol
+		(lib_id "dongle:Crystal_GND24")
+		(at 260.35 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4097c7af-8b39-47ad-acce-c356c53e3721")
+		(property "Reference" "Y1"
+			(at 260.35 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24"
+			(at 259.842 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "dongle:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 260.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d3302073-1e58-439f-be74-db942f16c31c")
+		)
+		(pin "2"
+			(uuid "4fa903f9-c1fa-432c-943c-4ffd69111e82")
+		)
+		(pin "3"
+			(uuid "f657949f-acec-449e-83d3-d779719ab652")
+		)
+		(pin "1"
+			(uuid "08bad863-77cb-42b6-a430-8cc709735f9f")
+		)
+		(instances
+			(project ""
+				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:GND")
 		(at 114.3 101.6 0)
 		(unit 1)
@@ -5278,75 +5550,6 @@
 			(project "dongle"
 				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PNCATEHO_lowair:Crystal")
-		(at 256.54 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d62b02a-b1bb-4207-a1f8-19162765f260")
-		(property "Reference" "Y1"
-			(at 255.016 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "32MHz"
-			(at 255.016 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "dongle:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
-			(at 256.54 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 256.54 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2acd1d24-2082-4064-a92c-14ac27edc5aa")
-		)
-		(pin "2"
-			(uuid "571a3bd9-9ffe-4005-b475-6a1bcf719c60")
-		)
-		(instances
-			(project ""
-				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -5457,7 +5660,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "dongle:C_0201_0603Metric"
 			(at 216.8652 31.75 0)
 			(effects
 				(font
@@ -5527,7 +5730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "dongle:C_0201_0603Metric"
 			(at 188.9252 69.85 0)
 			(effects
 				(font
@@ -5641,7 +5844,7 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO_lowair:C")
-		(at 260.35 36.83 0)
+		(at 251.46 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5649,7 +5852,7 @@
 		(dnp no)
 		(uuid "6f4cdad3-7b7b-48f0-b3c7-c0d4069a4697")
 		(property "Reference" "C1"
-			(at 265.938 35.56 0)
+			(at 251.46 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,15 +5860,15 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 265.938 38.1 0)
+			(at 251.46 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 261.3152 40.64 0)
+		(property "Footprint" "dongle:C_0201_0603Metric"
+			(at 255.27 35.8648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 36.83 0)
+			(at 251.46 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5886,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 260.35 36.83 0)
+			(at 251.46 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +6135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "dongle:C_0201_0603Metric"
 			(at 158.4452 63.5 0)
 			(effects
 				(font
@@ -6069,7 +6272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "dongle:C_0603_1608Metric"
 			(at 131.7752 93.98 0)
 			(effects
 				(font
@@ -6139,7 +6342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "dongle:C_0201_0603Metric"
 			(at 115.2652 63.5 0)
 			(effects
 				(font
@@ -6275,7 +6478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "dongle:C_0603_1608Metric"
 			(at 130.5052 63.5 0)
 			(effects
 				(font
@@ -6345,7 +6548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "dongle:C_0201_0603Metric"
 			(at 144.4752 63.5 0)
 			(effects
 				(font
@@ -6483,7 +6686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "dongle:C_0201_0603Metric"
 			(at 200.9648 39.37 0)
 			(effects
 				(font
@@ -6623,7 +6826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "dongle:C_0402_1005Metric"
 			(at 214.3252 69.85 0)
 			(effects
 				(font
@@ -6734,16 +6937,15 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO_lowair:GND")
-		(at 260.35 43.18 0)
+		(at 243.84 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aa7e8ff6-bf34-4de3-b4f5-e49e36740309")
 		(property "Reference" "#PWR025"
-			(at 260.35 49.53 0)
+			(at 243.84 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,7 +6954,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 48.26 0)
+			(at 243.84 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 43.18 0)
+			(at 243.84 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,7 +6971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 43.18 0)
+			(at 243.84 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 43.18 0)
+			(at 243.84 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +7028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "dongle:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "dongle:C_0603_1608Metric"
 			(at 115.2652 93.98 0)
 			(effects
 				(font
@@ -6935,6 +7137,71 @@
 		)
 	)
 	(symbol
+		(lib_id "PNCATEHO_lowair:GND")
+		(at 275.59 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6fe6cbc-f53d-448b-8601-e374f9ddc70b")
+		(property "Reference" "#PWR06"
+			(at 275.59 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39650962-9928-4736-a02a-2b881eff6ae5")
+		)
+		(instances
+			(project "dongle"
+				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PNCATEHO_lowair:L")
 		(at 208.28 31.75 270)
 		(mirror x)
@@ -6960,7 +7227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dongle:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "dongle:L_0201_0603Metric"
 			(at 208.28 31.75 0)
 			(effects
 				(font
@@ -7387,72 +7654,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dongle:Antenna")
-		(at 187.96 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d40b4690-a662-4620-a2d3-274314e864e4")
-		(property "Reference" "AE1"
-			(at 186.182 19.812 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 186.182 22.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "dongle:Texas_SWRA117D_2.4GHz_Left"
-			(at 187.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antenna"
-			(at 187.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16f8bbe0-3864-4e78-bda1-a312446fcd66")
-		)
-		(instances
-			(project ""
-				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
-					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PNCATEHO_lowair:C")
 		(at 201.93 73.66 0)
 		(mirror x)
@@ -7523,6 +7724,75 @@
 		)
 	)
 	(symbol
+		(lib_id "dongle:Antenna_Shield")
+		(at 185.42 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfd2794f-c9aa-4018-8ee5-c15509c688ef")
+		(property "Reference" "AE1"
+			(at 187.706 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Shield"
+			(at 187.706 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "dongle:ANTC5020X110N"
+			(at 185.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 185.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ed3a829-1a50-4406-9ad2-18a584ceab07")
+		)
+		(pin "1"
+			(uuid "55436980-4630-409c-ae26-30482522d204")
+		)
+		(instances
+			(project ""
+				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dongle:Conn_01x01_Pin")
 		(at 158.75 27.94 0)
 		(unit 1)
@@ -7548,7 +7818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "dongle:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "dongle:TestPoint_Pad_D1.0mm"
 			(at 158.75 27.94 0)
 			(effects
 				(font
@@ -7612,7 +7882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dongle:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "dongle:R_0402_1005Metric"
 			(at 265.43 65.278 90)
 			(effects
 				(font
@@ -7679,7 +7949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dongle:LED_0603_1608Metric"
+		(property "Footprint" "dongle:LED_0402_1005Metric"
 			(at 255.27 63.5 0)
 			(effects
 				(font
