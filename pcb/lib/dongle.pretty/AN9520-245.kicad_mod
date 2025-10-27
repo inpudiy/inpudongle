@@ -104,15 +104,15 @@
 		(uuid "7ffbd15e-d0c6-4477-9734-bd964d567903")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/RF_Antenna.3dshapes/Johanson_2450AT43F0100.step"
+	(model "${KIPRJMOD}/lib/step/AN9520-245.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 2 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

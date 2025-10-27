@@ -3280,12 +3280,12 @@
 		(uuid "58afbfc7-938b-47fa-898b-e5e690bcf6b1")
 	)
 	(no_connect
-		(at 92.71 71.12)
-		(uuid "8159f134-b12a-475f-be13-51dcdd47afdb")
+		(at 185.42 31.75)
+		(uuid "6e72fc7d-840c-43ba-8aa6-828233a494f1")
 	)
 	(no_connect
-		(at 185.42 31.75)
-		(uuid "85385683-3a35-45b4-b8c1-40e27b028a00")
+		(at 92.71 71.12)
+		(uuid "8159f134-b12a-475f-be13-51dcdd47afdb")
 	)
 	(no_connect
 		(at 92.71 81.28)
@@ -5274,7 +5274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dongle:TS342A2P"
+		(property "Footprint" "dongle:SW_SPST_B3U-1000P"
 			(at 259.08 86.36 0)
 			(effects
 				(font
@@ -5947,7 +5947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dongle:USB_A_Connfly_DS1098_Horizontal"
+		(property "Footprint" "dongle:USB_A_Molex_48037-2200_Horizontal"
 			(at 127 33.02 0)
 			(effects
 				(font
@@ -8159,7 +8159,8 @@
 	)
 	(symbol
 		(lib_id "dongle:Antenna_Shield")
-		(at 185.42 26.67 0)
+		(at 187.96 26.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8167,25 +8168,25 @@
 		(dnp no)
 		(uuid "dfd2794f-c9aa-4018-8ee5-c15509c688ef")
 		(property "Reference" "AE1"
-			(at 187.706 20.828 0)
+			(at 186.436 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Antenna_Shield"
-			(at 187.706 23.368 0)
+			(at 186.436 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "dongle:AN9520-245"
-			(at 185.42 24.13 0)
+			(at 187.96 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 24.13 0)
+			(at 187.96 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8204,7 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
-			(at 185.42 26.67 0)
+			(at 187.96 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

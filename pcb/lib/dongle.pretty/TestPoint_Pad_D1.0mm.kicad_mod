@@ -57,7 +57,7 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 5.975 0 0)
 		(layer "F.Fab")
 		(uuid "ecb9d95d-c3e5-4a80-b7be-d742b8cad331")
 		(effects
