@@ -58,7 +58,7 @@
           "width": 0.0
         },
         {
-          "gap": 0.22,
+          "gap": 0.2,
           "via_gap": 0.2,
           "width": 0.3
         }
@@ -201,6 +201,7 @@
         0.7,
         0.8,
         0.9,
+        1.0,
         1.0
       ],
       "tuning_pattern_settings": {

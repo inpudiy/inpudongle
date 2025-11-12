@@ -1,0 +1,65 @@
+(footprint "MountingHole_1.1mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 1.1mm, no annular")
+	(tags "mountinghole")
+	(property "Reference" "REF**"
+		(at 0 -3.05 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f6d1d120-84a5-40b1-8d75-cac85d1e4d3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_1.1mm"
+		(at 0 3.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a5667cf-2730-4cc1-99ab-b173c1cc33f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49fe9825-e9cc-4069-a340-dfa81e553394")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04922136-5ea5-40e9-8d23-2e830d82e967")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8504a867-d5c4-46e0-bf1d-364e03b1280e")
+	)
+	(embedded_fonts no)
+)
