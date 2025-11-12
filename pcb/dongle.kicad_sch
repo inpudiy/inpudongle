@@ -2484,180 +2484,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dongle:SW_Push_45deg"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 3.048 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push_45deg"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_45deg_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.1684 1.1684)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "dongle:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -2889,24 +2715,6 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
@@ -3067,18 +2875,6 @@
 		)
 		(uuid d49362e7-650c-4453-b211-159d98c86ab6)
 	)
-	(rectangle
-		(start 231.14 73.914)
-		(end 284.226 98.044)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e873a7b1-525b-4aad-94d8-ac3b9dea572c)
-	)
 	(text "USB"
 		(exclude_from_sim no)
 		(at 108.966 14.732 0)
@@ -3088,16 +2884,6 @@
 			)
 		)
 		(uuid "698cfc46-9b03-4b04-a48f-9800284094fe")
-	)
-	(text "Reset button"
-		(exclude_from_sim no)
-		(at 238.252 75.946 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "79abebb4-9c0d-4953-a13c-a8598c377c9f")
 	)
 	(text "XTAL"
 		(exclude_from_sim no)
@@ -3172,12 +2958,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42dd71f0-df58-41cf-a424-4aa16fe29094")
-	)
-	(junction
-		(at 123.19 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d5c1d5d-423f-4a7e-925e-e28418acacea")
 	)
 	(junction
 		(at 267.97 39.37)
@@ -3430,16 +3210,6 @@
 			(type default)
 		)
 		(uuid "2ef8e067-367e-4807-8da0-3eb995aa586b")
-	)
-	(wire
-		(pts
-			(xy 120.65 43.18) (xy 123.19 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "307721e4-ab11-402e-958e-9de8cd5c31f8")
 	)
 	(wire
 		(pts
@@ -3703,16 +3473,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 83.82) (xy 256.54 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcc5fe0d-69e2-4090-bc99-c11316071957")
-	)
-	(wire
-		(pts
 			(xy 187.96 31.75) (xy 193.04 31.75)
 		)
 		(stroke
@@ -3750,16 +3510,6 @@
 			(type default)
 		)
 		(uuid "cd484f40-c8c4-49ab-93c5-5a3a8b306b2d")
-	)
-	(wire
-		(pts
-			(xy 120.65 41.91) (xy 120.65 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d06b2845-5b45-409a-afb4-774758feb991")
 	)
 	(wire
 		(pts
@@ -4387,28 +4137,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET"
-		(shape input)
-		(at 251.46 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79ea3763-b71f-44ba-b507-adbaaed186ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.7297 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5074,74 +4802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dongle:SW_Push_45deg")
-		(at 259.08 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22ce7df1-8de8-4223-9746-c89fb633eb58")
-		(property "Reference" "SW1"
-			(at 259.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 259.08 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "dongle:SW_SPST_B3U-1000P"
-			(at 259.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 259.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5952318-b656-4ee8-a078-5dc64eb19f41")
-		)
-		(pin "1"
-			(uuid "6a956122-ec1c-49bf-9b4b-f73cfa6c2a15")
-		)
-		(instances
-			(project ""
-				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PNCATEHO_lowair:C")
 		(at 170.18 67.31 0)
 		(mirror x)
@@ -5206,72 +4866,6 @@
 			(project "dongle"
 				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:GND")
-		(at 261.62 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27bbe355-5fd4-470e-abdf-9fc3e4610aa9")
-		(property "Reference" "#PWR05"
-			(at 261.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.62 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Global ground symbol"
-			(at 261.62 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bb1d97d-60e4-48b4-948f-bad3811cc4ca")
-		)
-		(instances
-			(project "dongle"
-				(path "/81b8789c-509b-48aa-aabd-6327c54a25df"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5772,7 +5366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dongle:USB_A_Molex_48037-2200_Horizontal"
+		(property "Footprint" "dongle:USB_A_PCB_Edge_receptacle"
 			(at 127 33.02 0)
 			(effects
 				(font
@@ -5810,9 +5404,6 @@
 		)
 		(pin "1"
 			(uuid "29d209cc-5454-430e-afa3-d12dfdee1464")
-		)
-		(pin "5"
-			(uuid "501515bf-e339-4ad8-85eb-61e1d0995205")
 		)
 		(instances
 			(project ""
@@ -7753,7 +7344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dongle:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias"
+		(property "Footprint" "dongle:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm"
 			(at 59.69 180.34 0)
 			(effects
 				(font
