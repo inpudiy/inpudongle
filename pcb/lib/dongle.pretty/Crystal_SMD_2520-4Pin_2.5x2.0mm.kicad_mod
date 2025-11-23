@@ -114,8 +114,8 @@
 		(uuid "c6157633-3b45-4179-acf5-a4d49070eb11")
 		(effects
 			(font
-				(size 0.62 0.62)
-				(thickness 0.09)
+				(size 0.25 0.25)
+				(thickness 0.03125)
 			)
 		)
 	)

@@ -57,13 +57,13 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_text user "${REFERENCE}"
-		(at -1 0 0)
+		(at 0 0.55 0)
 		(layer "F.Fab")
 		(uuid "ecb9d95d-c3e5-4a80-b7be-d742b8cad331")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.25 0.25)
+				(thickness 0.03125)
 			)
 		)
 	)

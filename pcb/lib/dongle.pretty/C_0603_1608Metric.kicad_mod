@@ -160,8 +160,8 @@
 		(uuid "d3611c58-d32a-4af6-93f7-db7bf886f2dd")
 		(effects
 			(font
-				(size 0.4 0.4)
-				(thickness 0.06)
+				(size 0.25 0.25)
+				(thickness 0.03125)
 			)
 		)
 	)
