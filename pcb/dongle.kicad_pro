@@ -548,10 +548,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../../inpudongle_gerber/",
+      "plot": "../../../../../dongle_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../case/pcb.step",
       "svg": "",
       "vrml": ""
     },
