@@ -3,7 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SMD2520/4, Crystal, 2.5x2.0mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf")
 	(property "Reference" "REF**"
 		(at 0 -2.2 0)
 		(layer "F.SilkS")
@@ -52,7 +51,7 @@
 			)
 		)
 	)
-	(property "JLCPCB" "C5213671"
+	(property "LCSC Part #" "C5261121"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)

@@ -3,7 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
 	(tags "SMD SMT Crystal")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -55,7 +54,7 @@
 			)
 		)
 	)
-	(property "JLCPCB" "C276424"
+	(property " LCSC Part #" "C5213671"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
