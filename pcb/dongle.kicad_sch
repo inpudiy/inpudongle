@@ -3222,16 +3222,20 @@
 		(uuid "0897b6cf-3e41-4c1c-a953-ba41ce02b5b9")
 	)
 	(no_connect
+		(at 92.71 68.58)
+		(uuid "0bd817ea-ea6e-42e1-8360-466d2b86251e")
+	)
+	(no_connect
 		(at 92.71 116.84)
 		(uuid "16bef4c1-a00e-42af-9284-394cff057537")
 	)
 	(no_connect
-		(at 92.71 86.36)
-		(uuid "4d605caa-ad40-43ca-a8d8-fb53747678b6")
+		(at 92.71 91.44)
+		(uuid "33fad0da-9486-47f6-9d33-6dba0a7aa036")
 	)
 	(no_connect
-		(at 92.71 90.17)
-		(uuid "55d8906a-db00-41af-a659-65b9ca810962")
+		(at 92.71 86.36)
+		(uuid "4d605caa-ad40-43ca-a8d8-fb53747678b6")
 	)
 	(no_connect
 		(at 92.71 114.3)
@@ -3268,10 +3272,6 @@
 	(no_connect
 		(at 92.71 55.88)
 		(uuid "c09e2eb0-39a8-41ff-928d-95f871e0dcdd")
-	)
-	(no_connect
-		(at 92.71 66.04)
-		(uuid "c0f941b3-9fc4-40b0-8349-fe68687450b9")
 	)
 	(no_connect
 		(at 49.53 35.56)
@@ -4387,7 +4387,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 92.71 68.58 0)
+		(at 92.71 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4397,7 +4397,7 @@
 		)
 		(uuid "895c9fca-96be-4984-a1c2-e62856ffd156")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.1423 68.58 0)
+			(at 99.1423 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
