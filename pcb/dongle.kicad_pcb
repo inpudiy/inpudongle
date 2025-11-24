@@ -2699,7 +2699,7 @@
 		(sheetfile "dongle.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_text user "VDD"
-			(at 0 0.55 0)
+			(at 0 0.56 0)
 			(layer "F.SilkS")
 			(uuid "16e0ffb0-8dda-4955-a9eb-fdc99e6d10c7")
 			(effects
@@ -6623,12 +6623,20 @@
 		(uuid "f7700505-5346-4342-9a35-fb163760fe9d")
 	)
 	(segment
-		(start 156.73 89.84)
-		(end 156.73 89.015)
+		(start 156.73 89.015)
+		(end 156.73 89.84)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 9)
-		(uuid "31851500-a757-456c-9795-b4f9e4e83347")
+		(uuid "20a182e8-ad7a-4faa-bb77-808eab98402a")
+	)
+	(segment
+		(start 156.73 89.84)
+		(end 156.97 90.08)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 9)
+		(uuid "d48680a6-fab5-4801-9039-7481cea9a819")
 	)
 	(segment
 		(start 156.97 90.805)
@@ -6639,20 +6647,12 @@
 		(uuid "db6b7813-c344-4c4d-a07e-9f8594f0c697")
 	)
 	(segment
-		(start 156.97 90.08)
-		(end 156.73 89.84)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 9)
-		(uuid "e465a978-718b-4aa9-8e5c-278231e71ca1")
-	)
-	(segment
-		(start 156.33 90.08)
-		(end 156.33 89.015)
+		(start 156.33 89.015)
+		(end 156.33 90.08)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 10)
-		(uuid "e965ed2f-a271-4bf2-9997-a7dbbaeda85b")
+		(uuid "b7ab0c32-bbc8-407d-82b6-2ecb52c0e79d")
 	)
 	(segment
 		(start 156.97 91.445)
