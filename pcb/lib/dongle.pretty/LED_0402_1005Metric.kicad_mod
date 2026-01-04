@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.13 -0.25)
-		(end -0.13 0.25)
+		(start -0.875 -0.25)
+		(end -0.875 0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
